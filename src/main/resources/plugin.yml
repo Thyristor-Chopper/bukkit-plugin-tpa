@@ -1,0 +1,71 @@
+name: TPA
+main: com.pb.tpa.TPA
+version: 2.52
+api-version: 1.13
+commands: 
+   tpa:
+      description: TPA 요청을 보냅니다
+      usage: '사용법: /tpa <플레이어 이름>'
+      permission: 
+   tpaccept:
+      description: TPA 요청을 수락합니다
+      usage: '사용법: /tpaccept [<플레이어 이름>]'
+      permission: 
+   x__force_opponent_tpa:
+      description: 
+      usage: '(내부 명령어)'
+      permission: 
+   x__force_opponent_tpaccept:
+      description: 
+      usage: '(내부 명령어)'
+      permission: 
+   x__force_opponent_unsafe_tpaccept:
+      description: 
+      usage: '(내부 명령어)'
+      permission: 
+   tpdeny:
+      description: TPA 요청을 거절합니다
+      usage: '사용법: /tpdeny [<플레이어 이름>]'
+      permission: 
+   tpignore:
+      description: TPA 요청을 무시합니다
+      usage: '사용법: /tpignore [<플레이어 이름>]'
+      permission: 
+   tpblock:
+      description: 지정한 플레이어의 TPA 요청을 차단합니다
+      usage: '사용법: /tpblock <플레이어 이름>'
+      permission: 
+   tpunblock:
+      description: 지정한 플레이어의 TPA 요청을 차단을 해제합니다
+      usage: '사용법: /tpunblock <플레이어 이름>'
+      permission: 
+   tpbed:
+      description: 침대로 이동합니다
+      usage: '사용법: /tpbed'
+      permission: 
+      aliases: [ 'tp-bed', 'homebed', 'home-bed' ]
+   tpspawn:
+      description: 스폰으로 이동합니다
+      usage: '사용법: /tpspawn'
+      permission: 
+   bed:
+      description: 
+      usage: 
+      permission: 
+   spec:
+      description: 다른 플레이어를 관전합니다
+      usage: '사용법: /spec <플레이어>'
+      permission: 
+   specaccept:
+      description: 관전 요청을 승인합니다
+      usage: '사용법: /specaccept [<플레이어>]'
+      permission: 
+   specdeny:
+      description: 관전 요청을 거절합니다
+      usage: '사용법: /specdeny [<플레이어>]'
+      permission: 
+   specignore:
+      description: 관전 요청을 무시합니다
+      usage: '사용법: /specignore [<플레이어>]'
+      permission: 
+

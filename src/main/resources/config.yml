@@ -1,0 +1,11 @@
+cooltime: 30
+teleport-vehicle: false
+enable-spectator: false
+enable-second-bed: false
+allow-tpspawn: false
+enable-death-pos: false
+gamemode: lastmode
+blocked-players:
+enable-team-guard: false
+disallow-tpa-while-pvp: false
+
